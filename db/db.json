@@ -1,0 +1,130 @@
+{
+    "hotels": [
+      { "id": 1, 
+        "title": "Burj Al Arab", 
+        "starsRating": 9,
+        "usersRating": 9.5,
+        "userReviewCount": 100,
+        "location": "Jumeriah Beach, Dubai", 
+        "desc": "Burj al Arab hotel is Dubai's finest hotel.",
+        "servicesIncluded": [
+            {
+                "id": 1,
+                "category": "meal",
+                "description": "2 meals"
+            },
+            {
+                "id": 2,
+                "category": "transport",
+                "description": "Pickup Drop"
+            }
+        ],
+        "price": 1000,
+        "pricePerPerson": 200,
+        "currencySymbol": "$",
+        "image": "burjalarab.jpg",
+        "img-alt": "Burj Al Arab Hotel"
+    },
+    { "id": 2, 
+        "title": "Grand Hayat Dubai", 
+        "starsRating": 7,
+        "usersRating": 8.2,
+        "userReviewCount": 50,
+        "location": "Bur Dubai, Dubai", 
+        "desc": "Leela palace hotel is Dubai's finest hotel.",
+        "servicesIncluded": [
+            {
+                "id": 1,
+                "category": "meal",
+                "description": "2 meals"
+            },
+            {
+                "id": 2,
+                "category": "transport",
+                "description": "Pickup Drop"
+            }
+        ],
+        "price": 1000,
+        "pricePerPerson": 200,
+        "currencySymbol": "$",
+        "image": "hayat.jpg",
+        "img-alt": "Grand Hayat Dubai Hotel"
+    },
+    { "id": 3, 
+        "title": "Atlantis Dubai", 
+        "starsRating": 9.5,
+        "usersRating": 9.1,
+        "userReviewCount": 150,
+        "location": "Palm Island Dubai, Dubai", 
+        "desc": "Leela palace hotel is Dubai's finest hotel.",
+        "servicesIncluded": [
+            {
+                "id": 1,
+                "category": "meal",
+                "description": "2 meals"
+            },
+            {
+                "id": 2,
+                "category": "transport",
+                "description": "Pickup Drop"
+            }
+        ],
+        "price": 1200,
+        "pricePerPerson": 150,
+        "currencySymbol": "$",
+        "image": "atlantis.jpg",
+        "img-alt": "Atlantis Hotel Dubai"
+    },
+    { "id": 4, 
+        "title": "Grand Hayat Dubai2", 
+        "starsRating": 7,
+        "usersRating": 8.2,
+        "userReviewCount": 50,
+        "location": "Bur Dubai, Dubai", 
+        "desc": "Leela palace hotel is Dubai's finest hotel.",
+        "servicesIncluded": [
+            {
+                "id": 1,
+                "category": "meal",
+                "description": "2 meals"
+            },
+            {
+                "id": 2,
+                "category": "transport",
+                "description": "Pickup Drop"
+            }
+        ],
+        "price": 1000,
+        "pricePerPerson": 200,
+        "currencySymbol": "$",
+        "image": "hayat.jpg",
+        "img-alt": "Grand Hayat Dubai Hotel"
+    },
+    { "id": 5, 
+        "title": "Atlantis Dubai2", 
+        "starsRating": 9.5,
+        "usersRating": 9.1,
+        "userReviewCount": 150,
+        "location": "Palm Island Dubai, Dubai", 
+        "desc": "Leela palace hotel is Dubai's finest hotel.",
+        "servicesIncluded": [
+            {
+                "id": 1,
+                "category": "meal",
+                "description": "2 meals"
+            },
+            {
+                "id": 2,
+                "category": "transport",
+                "description": "Pickup Drop"
+            }
+        ],
+        "price": 1200,
+        "pricePerPerson": 150,
+        "currencySymbol": "$",
+        "image": "atlantis.jpg",
+        "img-alt": "Atlantis Hotel Dubai"
+    }
+        
+    ]
+}

@@ -1,0 +1,11 @@
+.userreview {
+    &__text {
+        color: lighten($font-color-primary, 10%);
+        &--rating {
+            display: inline-block;
+            color: white;
+            padding: 0.25rem;
+            background: lighten($color-primary, 15%); 
+        }
+    }
+}

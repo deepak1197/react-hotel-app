@@ -1,0 +1,56 @@
+.card {
+    margin: 1rem 0;
+    &:not(:last-child) {
+      margin-right: .25%;
+    }
+  
+    &__subtitle {
+      color: $font-color-secondary;
+      font-size: .75rem;
+      font-weight: 700;
+
+        &--small {
+            font-weight: 400;
+            font-size: .75rem;
+            margin-bottom: .25rem;
+        
+            &--italic {
+                font-style: italic;
+            }
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--inner-text {
+            font-size: 10px;
+            margin-bottom: 0;
+        }
+
+        &--main-text {
+            color: $color-secondary;
+        }
+    }
+
+    &__btn--large {
+        background-color: orange;
+        color: white;
+        font-size: 1rem;
+        text-transform: capitalize;
+        border: none;
+        padding: 0.25rem 0.5rem;
+    }
+
+    @media only screen and (min-width: 500px) {
+        width: 100%;
+    }
+    @media only screen and (min-width: 640px) {
+        width: 49%;
+    }
+    @media only screen and (min-width: 900px) {
+        width: 33%;
+    }
+}
